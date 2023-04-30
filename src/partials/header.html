@@ -1,13 +1,60 @@
 <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+  <div class="container header__container--flex">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">How It Works</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Fruits</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <a href="./" class="header__logo">
+      <svg class="header__icon">
+        <use href="../icons/sprite.svg#icon-fruits-logo"></use>
+      </svg>
+      <span class="header__logo-text">fresh harvest box</span>
+    </a>
+    <div class="header__buttons--mobile js-burger-container">
+      <button class="header__button-burger js-burger">
+        <svg>
+          <use href="../icons/sprite.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <button class="header__button-close hidden js-burger">
+        <svg>
+          <use href="../icons/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <button class="header__button-cart">
+      <svg>
+        <use href="../icons/sprite.svg#icon-cart"></use>
+      </svg>
+    </button>
+    <div class="header__burger-menu hidden js-burger-menu">
+      <nav class="header__nav--burger">
+        <ul class="header__nav-list">
+          <li class="header__nav-item--burger">
+            <a href="#" class="header__nav-link--burger">How It Works</a>
+          </li>
+          <li class="header__nav-item--burger">
+            <a href="#" class="header__nav-link--burger">Fruits</a>
+          </li>
+          <li class="header__nav-item--burger">
+            <a href="#" class="header__nav-link--burger">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__button-cart--burger">
+        <svg class="header__icon-cart--burger" >
+          <use href="../icons/sprite.svg#icon-cart"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 </header>
