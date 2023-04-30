@@ -152,6 +152,7 @@
   /* set visually-hidden */
   .visually-hidden,
   .header__burger-menu,
+  .header__burger-menu.hidden,
   .header__buttons--mobile {
     position: absolute;
     width: 1px;
