@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "http://z9877969.github.io/fruits-test-dev",
   "scripts": {
     "start": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/fruits-test-dev/",
     "preview": "vite preview"
   },
   "devDependencies": {
