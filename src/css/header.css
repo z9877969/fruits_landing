@@ -105,6 +105,8 @@
   width: 100vw;
   height: calc(100vh - 50px);
   background-color: var(--main-red-color);
+
+  z-index: 500;
 }
 
 .header__burger-menu.hidden {

@@ -8,6 +8,7 @@
 @import url('./shared.css');
 @import url('./header.css');
 @import url('./hero.css');
+@import url('./how-it-works.css');
 
 :root {
   font-family: 'DM Sans', sans-serif;
