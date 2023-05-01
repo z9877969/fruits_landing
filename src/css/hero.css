@@ -1,12 +1,12 @@
 .hero {
   background-color: var(--main-red-color);
   padding-top: 56px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .hero__container {
-  background: url(../img/banana-bg.png), url(../img/strawberry-bg.png),
-    var(--main-red-color);
+  background: url(../img/banana-bg.png), url(../img/strawberry-bg.png);
+  /* , var(--main-red-color); */
   background-repeat: no-repeat;
   background-position: left calc(116px - 56px), right 0;
 }
@@ -197,7 +197,7 @@
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 64px;
-    padding-bottom: 137px;
+    padding-bottom: 68px;
   }
 
   .hero__container {
@@ -289,7 +289,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    padding-bottom: 150px;
+    padding-bottom: 75px;
   }
 
   .hero__container {

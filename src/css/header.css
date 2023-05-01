@@ -9,6 +9,7 @@
 .header__container--flex {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 /* set visually-hidden */
@@ -102,7 +103,7 @@
   flex-direction: column;
   align-items: center;
 
-  width: 100vw;
+  width: 100%;
   height: calc(100vh - 50px);
   background-color: var(--main-red-color);
 
@@ -182,9 +183,13 @@
     white-space: unset;
     clip-path: none;
     clip: unset;
-    overflow: auto;
+    /* overflow: auto; */
   }
   /* reset visually-hidden -END */
+
+  .header__container--flex {
+    width: 768px;
+  }
 
   .header__nav {
     margin-right: 94px;
@@ -218,6 +223,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .header__container--flex {
+    width: 1280px;
+  }
+
   .header__nav {
     margin-right: 322px;
   }

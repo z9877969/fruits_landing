@@ -1,6 +1,7 @@
 .howitworks {
   background-color: var(--main-red-color);
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .howitworks__main-title {
@@ -91,7 +92,8 @@
 
 @media screen and (min-width: 768px) {
   .howitworks {
-    padding-bottom: 144px;
+    padding-top: 69px;
+    padding-bottom: 72px;
   }
 
   .howitworks__main-title {
@@ -152,6 +154,7 @@
 
 @media screen and (min-width: 1280px) {
   .howitworks {
+    padding-top: 75px;
     padding-bottom: 150px;
   }
 
