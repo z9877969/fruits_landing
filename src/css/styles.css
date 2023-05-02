@@ -12,6 +12,9 @@
 @import url('./fruits.css');
 @import url('./contacts.css');
 @import url('./footer.css');
+@import url('./modal-backdrop.css');
+@import url('./modal-thankyou.css');
+@import url('./modal-order.css');
 
 :root {
   font-family: 'DM Sans', sans-serif;
