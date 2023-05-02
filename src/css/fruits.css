@@ -187,6 +187,9 @@
     border-radius: 20px;
   }
 
+  .fruits__cards-item:nth-child(n) {
+    display: block;
+  }
   .fruits__cards-item:nth-child(n + 9) {
     display: none;
   }
@@ -247,6 +250,10 @@
 
   .fruits__cards-item {
     width: 389px;
+  }
+
+  .fruits__cards-item:nth-child(n) {
+    display: block;
   }
 
   .fruits__cards-item:nth-child(n + 10) {
