@@ -3,6 +3,8 @@
   top: 0;
   width: 100vw;
   height: 100vh;
+  padding: 8px;
+  overflow-y: auto;
   display: flex;
   justify-content: center;
   align-items: center;

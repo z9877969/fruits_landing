@@ -1,8 +1,8 @@
-<div class="backdrop modal-fruits">
+<div class="backdrop modal-fruits modal-close">
   <div class="modal-order">
     <div class="modal-order__header">
       <h2 class="modal-order__main-title">Your Order</h2>
-      <button class="modal-order__button-close">
+      <button class="modal-order__button-close js-close-modal">
         <svg class="modal-order__icon-close">
           <use href="./icons/sprite.svg#icon-close"></use>
         </svg>
@@ -32,12 +32,12 @@
         </div>
         <div class="modal-order__fruit-wrapper">
           <input
-            id="strawberry-basket"
+            id="strawberry-basket-2"
             type="checkbox"
             name="fruits"
             class="modal-order__fruit-input"
           />
-          <label for="strawberry-basket" class="modal-order__fruit-label">
+          <label for="strawberry-basket-2" class="modal-order__fruit-label">
             <div>
               <h3 class="modal-order__fruit-title">Strawberry Basket</h3>
               <p class="modal-order__fruit-descr">Plant</p>
@@ -67,6 +67,7 @@
         />
         <textarea
           name=""
+          resize="none"
           class="modal-order__input-contacts modal-order__input-contacts--textarea"
         ></textarea>
       </div>

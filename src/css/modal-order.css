@@ -136,6 +136,8 @@
 
 .modal-order__input-contacts--textarea {
   height: 132px;
+  padding: 24px;
+  resize: none;
 }
 
 .modal-order__submit {
