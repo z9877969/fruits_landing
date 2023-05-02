@@ -12,8 +12,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/fruits-test-dev/assets/index-4cf1dd9f.js"></script>
-    <link rel="stylesheet" href="/fruits-test-dev/assets/index-2d60fbe5.css">
+    <script type="module" crossorigin src="/fruits-test-dev/assets/index-f7ce6b61.js"></script>
+    <link rel="stylesheet" href="/fruits-test-dev/assets/index-d3f543fd.css">
   </head>
   <body>
     <header class="header">
@@ -269,7 +269,7 @@
         <p class="fruits__item-price">90 UAH/kg</p>
       </li>
     </ul>
-    <button class="fruits__order-button">
+    <button class="fruits__order-button js-open-modal">
       <svg class="fruits__order-icon">
         <use href="/fruits-test-dev/assets/sprite-01fdfefd.svg#icon-arrow-bottom-right"></use>
       </svg>
@@ -332,7 +332,9 @@
           class="contacts__input"
           placeholder="Enter email..."
         />
-        <button type="submit" class="contacts__submit">Send</button>
+        <button type="submit" class="contacts__submit js-open-modal">
+          Send
+        </button>
       </form>
     </div>
   </div>
@@ -421,11 +423,25 @@
 </footer>
 
 
-    <!-- <div class="thankyou">
-  <h1>Modal Thank You</h1>
+    <div class="backdrop modal-contacts js-modal modal-close">
+  <div class="modal-thankyou">
+    <button class="modal-thankyou__button-close js-close-modal">
+      <svg class="modal-thankyou__icon-close">
+        <use href="/fruits-test-dev/assets/sprite-01fdfefd.svg#icon-close"></use>
+      </svg>
+    </button>
+    <img src="/fruits-test-dev/assets/modal-thankyou-a530f1de.png" alt="" class="modal-thankyou__image" />
+    <h2 class="modal-thankyou-title">THANK YOU</h2>
+    <p class="modal-thankyou__descr">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
 </div>
 
-    <div class="modal-order">
+    <!-- <div class="modal-order">
     <h1>Modal Order</h1>
 </div> -->
 
