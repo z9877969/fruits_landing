@@ -1,3 +1,59 @@
-<div class="contacts">
-  <h2>Contacts</h2>
-</div>
+<section class="contacts">
+  <div class="container">
+    <h2 class="contacts__main-title">Fresh Harvest Box has got you covered</h2>
+    <ul class="contacts__fruits-list">
+      <li class="contacts__fruits-item">
+        <picture>
+          <source
+            srcset="./img/contacts-melon-desk.png"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="./img/contacts-melon-tab.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./img/contacts-melon-mob.png"
+            alt="melon"
+            height="372"
+            class="contacts__fruits-image"
+          />
+        </picture>
+      </li>
+      <li class="contacts__fruits-item">
+        <picture>
+          <source
+            srcset="./img/contacts-blueberries-desk.png"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="./img/contacts-blueberries-tab.png"
+            media="(min-width: 768px)"
+          />
+          <img
+            src="./img/contacts-blueberries-mob.png"
+            alt="blueberries"
+            height="372"
+            class="contacts__fruits-image"
+          />
+        </picture>
+      </li>
+    </ul>
+    <div class="contacts__footer">
+      <p class="contacts__descr">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form action="" class="contacts__form">
+        <input
+          type="text"
+          class="contacts__input"
+          placeholder="Enter email..."
+        />
+        <button type="submit" class="contacts__submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
