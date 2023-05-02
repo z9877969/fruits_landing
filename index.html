@@ -13,7 +13,7 @@
     />
     
     <script type="module" crossorigin src="/fruits-test-dev/assets/index-f7ce6b61.js"></script>
-    <link rel="stylesheet" href="/fruits-test-dev/assets/index-cabb202d.css">
+    <link rel="stylesheet" href="/fruits-test-dev/assets/index-b80cc0b1.css">
   </head>
   <body>
     <header class="header">
@@ -441,9 +441,84 @@
   </div>
 </div>
 
-    <!-- <div class="modal-order">
-    <h1>Modal Order</h1>
-</div> -->
+    <div class="backdrop modal-fruits modal-close">
+  <div class="modal-order">
+    <div class="modal-order__header">
+      <h2 class="modal-order__main-title">Your Order</h2>
+      <button class="modal-order__button-close js-close-modal">
+        <svg class="modal-order__icon-close">
+          <use href="/fruits-test-dev/assets/sprite-01fdfefd.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <form class="modal-order__form">
+      <div class="modal-order__fruits-list">
+        <div class="modal-order__fruit-wrapper">
+          <input
+            id="strawberry-basket"
+            type="checkbox"
+            name="fruits"
+            class="modal-order__fruit-input"
+          />
+          <label for="strawberry-basket" class="modal-order__fruit-label">
+            <div>
+              <h3 class="modal-order__fruit-title">Strawberry Basket</h3>
+              <p class="modal-order__fruit-descr">Plant</p>
+            </div>
+            <img
+              src="../img/hero-strawberry-basket.png"
+              alt="strawberry basket"
+              width="88"
+              class="modal-order__fruit-image"
+            />
+          </label>
+        </div>
+        <div class="modal-order__fruit-wrapper">
+          <input
+            id="strawberry-basket-2"
+            type="checkbox"
+            name="fruits"
+            class="modal-order__fruit-input"
+          />
+          <label for="strawberry-basket-2" class="modal-order__fruit-label">
+            <div>
+              <h3 class="modal-order__fruit-title">Strawberry Basket</h3>
+              <p class="modal-order__fruit-descr">Plant</p>
+            </div>
+            <img
+              src="../img/hero-strawberry-basket.png"
+              alt="strawberry basket"
+              width="88"
+              class="modal-order__fruit-image"
+            />
+          </label>
+        </div>
+      </div>
+      <div class="modal-order__contacts-list">
+        <input
+          type="text"
+          placeholder="Enter full name..."
+          class="modal-order__input-contacts"
+        /><input
+          type="text"
+          placeholder="Enter email..."
+          class="modal-order__input-contacts"
+        /><input
+          type="text"
+          placeholder="Enter card..."
+          class="modal-order__input-contacts"
+        />
+        <textarea
+          name=""
+          resize="none"
+          class="modal-order__input-contacts modal-order__input-contacts--textarea"
+        ></textarea>
+      </div>
+      <button class="modal-order__submit">Submit</button>
+    </form>
+  </div>
+</div>
+
 
     
   </body>
